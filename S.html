@@ -1,0 +1,214 @@
+<html>
+<title>Wahoo's of Wellington Swim Team - Swimmer Page</title>
+<body bgcolor="#000000">
+<head>
+<center>
+<font face="Courier New" size="120">
+<h2>
+<script language="JavaScript1.2"> 
+ 
+//Neon Lights Text II by G.P.F. (gpf@beta-cc.de)
+//visit http://www.beta-cc.de
+//Visit http://www.dynamicdrive.com for this script 
+ 
+var message="WELCOME TO THE SWIMMERS PAGE!!!"
+var neonbasecolor="blue"
+var neontextcolor="purple"
+var neontextcolor2="#FF0000"
+var flashspeed=100						// speed of flashing in milliseconds
+var flashingletters=3						// number of letters flashing in neontextcolor
+var flashingletters2=1						// number of letters flashing in neontextcolor2 (0 to disable)
+var flashpause=0						// the pause between flash-cycles in milliseconds
+ 
+///No need to edit below this line/////
+ 
+var n=0
+if (document.all||document.getElementById){
+document.write('<font color="'+neonbasecolor+'">')
+for (m=0;m<message.length;m++)
+document.write('<span id="neonlight'+m+'">'+message.charAt(m)+'</span>')
+document.write('</font>')
+}
+else
+document.write(message)
+ 
+function crossref(number){
+var crossobj=document.all? eval("document.all.neonlight"+number) : document.getElementById("neonlight"+number)
+return crossobj
+}
+ 
+function neon(){
+ 
+//Change all letters to base color
+if (n==0){
+for (m=0;m<message.length;m++)
+crossref(m).style.color=neonbasecolor
+}
+ 
+//cycle through and change individual letters to neon color
+crossref(n).style.color=neontextcolor
+ 
+if (n>flashingletters-1) crossref(n-flashingletters).style.color=neontextcolor2 
+if (n>(flashingletters+flashingletters2)-1) crossref(n-flashingletters-flashingletters2).style.color=neonbasecolor
+ 
+ 
+if (n<message.length-1)
+n++
+else{
+n=0
+clearInterval(flashing)
+setTimeout("beginneon()",flashpause)
+return
+}
+}
+ 
+function beginneon(){
+if (document.all||document.getElementById)
+flashing=setInterval("neon()",flashspeed)
+}
+beginneon()
+</script>
+</h2>
+</font>
+</center>
+<style> 
+<!--
+#glowtext{
+filter:glow(color=FFFF00,strength=3);
+width:100%;
+}
+-->
+</style>
+ 
+<script language="JavaScript1.2"> 
+ 
+/*
+Glowing Text Script- 
+© Dynamic Drive (www.dynamicdrive.com)
+For full source code, installation instructions,
+100's more DHTML scripts, and Terms Of
+Use, visit dynamicdrive.com
+*/
+ 
+function glowit(which){
+if (document.all.glowtext[which].filters[0].strength==3)
+document.all.glowtext[which].filters[0].strength=2
+else
+document.all.glowtext[which].filters[0].strength=3
+}
+ 
+function glowit2(which){
+if (document.all.glowtext.filters[0].strength==3)
+document.all.glowtext.filters[0].strength=2
+else
+document.all.glowtext.filters[0].strength=3
+}
+ 
+function startglowing(){
+if (document.all.glowtext&&glowtext.length){
+for (i=0;i<glowtext.length;i++)
+eval('setInterval("glowit('+i+')",150)')
+}
+else if (glowtext)
+setInterval("glowit2(0)",150)
+}
+ 
+if (document.all)
+window.onload=startglowing
+</script>
+</head>
+<body>
+<br>
+<hr width="100%" color=#FFFF00>
+<center><font face="Courier New" size="5" color="#00FF00">On this page you'll find cool videos, links, and downloads all having to do with swimming!!!</font></center>
+<br>
+<br>
+<center><font face="Courier New" size="8" color="#FFFFFF"><span id="glowtext">VIDEOS</span></font></center>
+<br>
+<center><table border="2" bordercolor="#FF0000" cellpadding="2" width="55%"></center>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="#0000A0"><a href="http://www.youtube.com/watch?v=vEh7AptRYFs&list=PL7B478AD8BF994674" target="target_blank">A High School Kid (David Nolan) goes a 1:41.39 in 200 IM<center></a></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="#0000A0"><a href="http://www.youtube.com/watch?v=QJSCy9lSJHo&feature=related" target="target_blank">David Nolan goes a 45.49 in the 100 Back<center></a></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="##0000A0"><a href="http://www.youtube.com/watch?v=M8Euk7PHybA&NR=1" target="target_blank">David Nolan goes a 42.34 in the 100 Free<center></a></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="0000A0"><a href="http://www.youtube.com/watch?v=K5tqDVSXdj8&feature=related" target="target_blank">David Nolan goes a 19.58 in the 50 Free<center></a></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="#0000A0"><a href="http://www.youtube.com/watch?v=Ulet_VAAt-A&feature=related" target="target_blank">THE FASTEST 50 FREE EVER!!! - 18.47<center></a></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="#0000A0"><a href="http://www.youtube.com/watch?v=BbBggbTMd1M&feature=related" target="target_blank">THE FASTEST 100 FREE EVER!!! - 40.92<center></a></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="#0000A0"><a href="http://www.youtube.com/watch?v=sVZrne7X5ww" target="target_blank">THE GREATEST RELAY YOU'LL EVER SEE!!! (400FRR at 2008 Olympics)<center></a></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="#0000A0"><a href="http://www.youtube.com/watch?v=wIAg9wcriro" target="target_blank">Michael Phelps vs. Mike Cavic - 100m fly Beijing 2008<center></a></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="#0000A0"><a href="http://www.youtube.com/watch?v=41tu3XG2u4I" target="target_blank">Michael Phelps vs. Mike Cavic - 100m fly Rome 2009<center></a></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="#0000A0"><a href="http://www.youtube.com/watch?v=woYG6Uq6OVU" target="target_blank">World's Worst Olympic Swim (THE FUNNIEST SWIMMING VIDEO)<center></a></td>
+</tr>
+</table>
+<br>
+<br>
+<center><font face="Courier New" size="8" color="#FFFFFF"><span id="glowtext">IPHONE APPS AND MUSIC</span></font></center>
+<br>
+<center><font face="Courier New" size="5" color="#FF8040">Like the song that plays on this website?  Click <a href="http://www.usaswimming.org/ViewNewsArticle.aspx?TabId=1506&itemid=3106&mid=8118" target="target_blank" title="Life of a Swimmer by Dyl ill">here</a> to download Life of a Swimmer.</font></center>
+<br>
+<center><table border="2" bordercolor="#000000" cellpadding="2" width="50%">
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="FFFF00">FREE Swim Time Converter</font></center></td>
+<td><center><a href="http://itunes.apple.com/us/app/swim-times/id418844312?mt=8&uo=4" target="itunes_store"><img src="http://ax.phobos.apple.com.edgesuite.net/images/web/linkmaker/badge_appstore-lrg.gif" alt="Swim Times - Ampersand Software" style="border: 0;"/></a></center></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="FFFF00">Keep track of your swim times with --------></font></center></td>
+<td><center><a href="http://itunes.apple.com/us/app/myswimtimes/id392110077?mt=8&uo=4" target="itunes_store"><img src="http://ax.phobos.apple.com.edgesuite.net/images/web/linkmaker/badge_appstore-lrg.gif" alt="MySwimTimes - XFiles" style="border: 0;"/></a></center></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="FFFF00">Universal Sports to catch up with swimming news</font></center></td>
+<td><center><a href="http://itunes.apple.com/us/app/universal-sports/id371108339?mt=8&uo=4" target="itunes_store"><img src="http://ax.phobos.apple.com.edgesuite.net/images/web/linkmaker/badge_appstore-lrg.gif" alt="Universal Sports - NBC Universal, Inc." style="border: 0;"/></a></center></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="FFFF00">Time Standards app</font></center></td>
+<td><center><a href="http://itunes.apple.com/us/app/swim-time-standards/id421967593?mt=8&uo=4" target="itunes_store"><img src="http://ax.phobos.apple.com.edgesuite.net/images/web/linkmaker/badge_appstore-lrg.gif" alt="Swim Time Standards - Cross Swim Training" style="border: 0;"/></a></center></td>
+</tr>
+<tr>
+<td><center><font face="Comic Sans MS" size="3" color="FFFF00">Live meet results app ($0.99)</font></center></td>
+<td><center><a href="http://itunes.apple.com/us/app/live-results/id325958282?mt=8&uo=4" target="itunes_store"><img src="http://ax.phobos.apple.com.edgesuite.net/images/web/linkmaker/badge_appstore-lrg.gif" alt="Live Results - Big Fish Software" style="border: 0;"/></a></center></td>
+</tr>
+</table>
+<br>
+<br>
+<center><font face="Courier New" size="8" color="#FFFFFF"><span id="glowtext">LINKS</span></font></center>
+<br>
+<center><font face="Courier New" size="5" color="#00FFFF">Here are some useful links to some good swimming websites.</font></center>
+<br>
+<center><a href="http://www.swimchampions.com/detail/plantation-fl/" target="target_blank" title="Sign up here and now!"><img src="C:\Users\Matthew\Documents\Matthew's Documents\Other\Swim Team Website\F.jpg" border="0"></a></center>
+<br>
+<center><font face="Comic Sans MS" size="4" color="800080"><a href="http://www.swimmingworldmagazine.com/results/conversions.asp" target="target_blank" title="Swim Time Converter">Free Online Swim Time Converter</a><font></center>
+<br>
+<center><font face="Comic Sans MS" size="4" color="800080"><a href="http://www.fina.org/swimming/world_rankings/index.php" target="target_blank" title="Look at the best times in the world!">Fina World Rankings</a><font></center>
+<br>
+<center><font face="Comic Sans MS" size="4" color="800080"><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1464&Alias=Rainbow&Lang=en" target="target_blank" title="Look at your friends' best times and see where YOU rank in the country">USA Swimming Rankings and Times</a><font></center>
+<br>
+<center><font face="Comic Sans MS" size="4" color="800080"><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=2022&Alias=Rainbow&Lang=en" target="target_blank" title="Find out when the big meets are on TV!">Swimming TV-Webcast Schedule</a><font></center>
+<br>
+<center><a href="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1611&Alias=Rainbow&Lang=en" target="target_blank" title="I signed us up, so read what it's about!"><img src="C:\Users\Matthew\Documents\Matthew's Documents\Other\Swim Team Website\SB.jpg" border="0"></a>
+<br>
+<br>
+<center><font face="Courier New" size="8" color="#FFFFFF"><span id="glowtext">GEAR</span></font></center>
+<br>
+<center><font face="Courier New" size="5" color="#808000">Need some new gear?  These guys got you covered...</font></center>
+<br>
+<center><a href="http://www.tyr.com/shop/" target="target_blank" title="TYR"><img src="C:\Users\Matthew\Documents\Matthew's Documents\Other\Swim Team Website\TYR.bmp" width="100" height="100" border="0"></a><a href="http://shop.usaswimming.org/" target="target_blank" title="USA Swimming official store"><img src="C:\Users\Matthew\Documents\Matthew's Documents\Other\Swim Team Website\USAS.jpg" width="100" height="100" border="0"></a><a href="http://www.swimoutlet.com/" target="target_blank" title="Swim Outlet"><img src="C:\Users\Matthew\Documents\Matthew's Documents\Other\Swim Team Website\SO.jpg"  width="100" height="100" border="0"></a><a href="http://www.speedousa.com/home/index.jsp" target="target_blank" title="Speedo"><img src="C:\Users\Matthew\Documents\Matthew's Documents\Other\Swim Team Website\SPEEDO.jpg" width="100" height="100" border="0"></a></center>
+</body>
+</html>
+

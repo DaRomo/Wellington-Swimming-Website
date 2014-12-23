@@ -1,0 +1,8 @@
+<html>
+<title>Wahoo's of Wellington Swim Team</title>
+<head></head>
+<frameset cols="1,6" bordercolor="0000FF" border="1">
+<frame src="side.html" name="sidebar">
+<frame src="HomePage.html" name="homepage">
+</frameset>
+</html>

@@ -1,0 +1,27 @@
+<html>
+<title>Wahoo's of Wellington Swim Team - Coach Contact</title>
+<body background="water.jpg" bgproperties="fixed">
+<head><center><b><font face="Comic Sans MS" color="FF0000" size="8">Coach Contact</font></b></center></head>
+<body>
+<hr width="100%" color=#0000FF>
+<br>
+<center><b><font face="Comic Sans MS" color="0000FF" size="6">Parent - Coach Communication</font></b></center>
+<br>
+<center><font face="Comic Sans MS" color="FF0000" size="3"><p>The partnership between parent and coach is the best way to assist a swimmer in reaching his/her potential. There will be meetings with parents on an individual or group basis throughout the year. Coaches are available before and after practices and by telephone and e-mail. 
+Parents with young swimmers are encouraged to check their child’s swim bag for information. Swim meet sign up forms and other information will be posted at the pool. If you do have email you can obtain information on line as well.</p></font></center>
+<br>
+<br>
+<center><table border="2" bordercolor="FF0000" cellpadding="2" width="40%">
+<tr>
+<td bgcolor="0000FF"><b><font face="Comic Sans MS" size="3" color="FF0000"><center>CONTACT INFORMATION: COACH RICH</center></font></b></td>
+</tr>
+<tr>
+<td><font face="Comic Sans MS" size="3"><center>PHONE NUMBER: (561)-723-7156</center></font></td>
+</tr>
+<tr>
+<td><font face="Comic Sans MS" size="3"><center>EMAIL: rtw01@aol.com</center></font></td>
+</tr>
+</table>
+</body>
+</html>
+

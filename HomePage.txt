@@ -1,0 +1,24 @@
+<HTML>
+<TITLE>Wahoo's of Wellington Swim Team</TITLE>
+<body background="water.jpg" bgproperties="fixed">
+<bgsound src="Life Of A Swimmer.mp3" loop="2">
+<body link="#FF0000">
+<body vlink="#FF0000">
+<body alink="#FF0000">
+<HEAD>
+<h1><center><font face="Comic Sans MS" size="8" color="#FF0000">Wahoo's of Wellington Swim Team</center><h1>
+</HEAD>
+<BODY>
+<h3><center>12150 Forest Hill Blvd., Wellington, FL <br>561-753-2484 ext 2836</center></h3>
+<hr width="100%" color=#0000FF>
+<center><IMG SRC="Wahoo.jpg" width="900" height="300" border="10" style="border-color:#0000FF"></center>
+<br>
+<br>
+<marquee bgcolor="#0033CC" loop="-1" scrollamount="7" width="100%"><font face="Comic Sans MS" size="5" color="#FF0000">SAINT ANDREW'S MEET THIS WEEKEND!!!</marquee>
+<br>
+<hr width="100%" color=#0000FF>
+<center><font size="5">Pround member of <A HREF="http://www.usaswimming.org/DesktopDefault.aspx" target="_blank">USA Swimming</A> and <A HREF="http://www.fgcswim.org/" target="_blank">Florida Gold Coast Swimming</A></center>
+<br>
+<center><A HREF="http://www.usaswimming.org/DesktopDefault.aspx?TabId=1940&Alias=Rainbow&Lang=en" target="_blank"><IMG SRC="C:\Users\Matthew\Documents\Matthew's Documents\Other\Swim Team Website\ASTjoinusButtons-02.jpg"></A></center>
+</BODY>
+</HTML>
